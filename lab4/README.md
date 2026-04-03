@@ -129,13 +129,14 @@ RPN replaces Selective Search by:
 ---
 
 ## 📂 Project Structure  
+```
 ├── fruit_data/
 │ ├── train/ # Images + XML/TXT annotations
 │ └── test/ # Images + XML/TXT annotations
 ├── fruit_data.yaml # YOLO configuration file
 ├── lab4_analysis.ipynb # Main development notebook
 └── README.md # Project documentation
-
+```
 ---
 
 ## 🧠 Key Insights & Learnings  
@@ -177,3 +178,10 @@ cd <repo-name>
 
 # Run the notebook
 lab4_analysis.ipynb
+```
+---
+## 📂 Dataset  
+
+This project uses the **Fruit Images for Object Detection** dataset from Kaggle, containing annotated images of apples, bananas, and oranges.
+
+🔗 Link: https://www.kaggle.com/datasets/mbkinaci/fruit-images-for-object-detection/data
